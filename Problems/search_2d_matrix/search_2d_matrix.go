@@ -13,7 +13,7 @@ func search2dMatrix(matrix [][]int, target int) bool {
 		if res == target {
 			return true
 		}
-		if mid < target {
+		if res < target {
 			left = mid + 1
 		} else {
 			right = mid - 1
